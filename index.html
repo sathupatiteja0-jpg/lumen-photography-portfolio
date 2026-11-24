@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LUMEN — a visual storytelling and photography portfolio.">
+  <title>LUMEN | Visual Stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">LUMEN<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#work">Selected work</a><a href="#about">Our story</a><a href="#services">Services</a><a class="nav-cta" href="#contact">Let's talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">INDEPENDENT CREATIVE STUDIO · EST. 2024</p>
+        <h1>We capture<br><em>what words</em><br>cannot say.</h1>
+        <p class="hero-intro">Honest frames. Beautiful light. Little moments that deserve to last forever.</p>
+        <a class="text-link" href="#work">Explore the collection <span>↘</span></a>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=85" alt="Mountain lake surrounded by dramatic mountains">
+        <span class="image-note">01 / THE QUIET NORTH</span>
+      </div>
+      <div class="hero-index">SCROLL TO DISCOVER&nbsp; ↓</div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <p class="eyebrow">A LITTLE ABOUT US</p>
+      <div><h2>Photography is not<br>about the camera.<br><em>It's about noticing.</em></h2>
+      <p class="body-copy">LUMEN is a fictional independent photography studio built around the art of observation. We turn fleeting moments into thoughtful visual stories — from wide-open landscapes to the small details of everyday life.</p></div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-heading"><div><p class="eyebrow">THE PORTFOLIO</p><h2>Selected <em>frames.</em></h2></div><p class="muted">A collection of places, people<br>and passing moments.</p></div>
+      <div class="filters" role="group" aria-label="Filter gallery">
+        <button class="filter active" data-filter="all">All work</button><button class="filter" data-filter="nature">Nature</button><button class="filter" data-filter="architecture">Architecture</button><button class="filter" data-filter="people">People</button>
+      </div>
+      <div class="gallery">
+        <article class="photo-card tall" data-category="nature"><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=85" alt="Sunlight through a forest"><div><span>01 / NATURE</span><h3>Into the green</h3></div></article>
+        <article class="photo-card" data-category="architecture"><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85" alt="Minimal modern architecture"><div><span>02 / FORMS</span><h3>Lines of silence</h3></div></article>
+        <article class="photo-card" data-category="people"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Portrait of a woman"><div><span>03 / PORTRAITS</span><h3>Soft confidence</h3></div></article>
+        <article class="photo-card" data-category="nature"><img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=900&q=85" alt="Golden sunrise over hills"><div><span>04 / LANDSCAPE</span><h3>Before the world wakes</h3></div></article>
+        <article class="photo-card" data-category="architecture"><img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=900&q=85" alt="White sculptural building"><div><span>05 / ARCHITECTURE</span><h3>Quiet geometry</h3></div></article>
+        <article class="photo-card" data-category="people"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85" alt="Portrait of a man outdoors"><div><span>06 / PEOPLE</span><h3>Between moments</h3></div></article>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <p class="eyebrow">WHAT WE CREATE</p><h2>Made with care.<br><em>Made to remember.</em></h2>
+      <div class="service-grid">
+        <article><span>01</span><h3>Portrait stories</h3><p>Natural, relaxed portraits that feel like you.</p></article>
+        <article><span>02</span><h3>Brand imagery</h3><p>Thoughtful visuals for people building meaningful things.</p></article>
+        <article><span>03</span><h3>Travel & nature</h3><p>Atmospheric photographs inspired by the world around us.</p></article>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <p class="eyebrow">HAVE A STORY IN MIND?</p><h2>Let's make<br><em>something timeless.</em></h2>
+      <a class="contact-link" href="mailto:hello@example.com">satupatiteja0@gmail.com ↗</a>
+      <p class="small-note">Demo contact address — replace with an approved contact before publishing.</p>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home">LUMEN<span>.</span></a><p>Designed as a student project by Teja · 2026</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
